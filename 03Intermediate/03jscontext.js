@@ -6,3 +6,12 @@
 // function declarations are scanned and made available
 // variable declarations are scanned and made undefined
 
+sayHello();
+function sayHello(){
+    console.log("this is true");
+}
+
+var myName = "gyamzo";
+if(myName ===window.myName){
+    console.log("this is true again");
+}
