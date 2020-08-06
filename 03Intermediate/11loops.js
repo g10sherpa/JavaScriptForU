@@ -27,4 +27,3 @@ for(let i=0; i<myCity.length; i++){
 //   console.log(myCity[i]);
 //   i++;
 // }while(i<10);
-    
