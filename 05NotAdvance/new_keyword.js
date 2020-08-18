@@ -12,7 +12,10 @@ User.prototype.getFirstName = function(){
 
 var gyamzo = new User("Gyamzo", 4);
 gyamzo.getFallInLove();
-gyamzo.getFirstName();
+
+if(gyamzo.hasOwnProperty("firstName")){
+    gyamzo.getFirstName();
+}
 // console.log(gyamzo);
 
 var Laxmi = new User("Laxmi",1);
