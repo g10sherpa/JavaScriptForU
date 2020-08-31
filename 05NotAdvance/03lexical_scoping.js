@@ -1,8 +1,5 @@
-// Lexical Scoping defines how variable 
-// names are resolved in nested functions: 
-// inner functions contain the scope of 
-// parent functions even if the parent 
-// function has returned.
+// Lexical Scoping defines how variable names are resolved in nested functions: 
+// inner functions contain the scope of parent functions even if the parent function has returned.
 
 // function nit(){
 //     var firstName = "gyamzo"
