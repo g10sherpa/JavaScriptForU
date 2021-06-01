@@ -7,8 +7,8 @@ setInterval( () => {
         count++;
         counter.innerText=count;
     }
-}, 1);
+}, 4);
 
 setTimeout( () => {
     followers.innerText="followers on instagram";
-},1);
+},0);
