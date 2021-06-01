@@ -15,3 +15,4 @@ console.log(`
     and his email is : ${email}
     and uses the password: ${password}
 `);
+
