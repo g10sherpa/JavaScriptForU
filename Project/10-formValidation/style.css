@@ -1,0 +1,33 @@
+body{
+    background-image: url("./images/form3.jpg");
+} 
+
+.bg-primary{
+    background: linear-gradient(45deg, black,purple);
+}
+
+.btn {
+     background: linear-gradient(45deg, black,purple);
+}
+
+.is-form-valid{
+    border: 1px solid limegreen;
+    border-left: 15px solid rgb(16, 114, 16);
+    box-shadow: 0 0 5px limegreen;
+}
+
+.is-form-invalid{
+    border: 1px solid orangered;
+    border-left: 15px solid orangered;
+    box-shadow: 0 0 5px orangered;
+}
+
+.text-success{
+    color: limegreen !important;
+    font-size: 14px !important
+}
+
+.text-danger{
+    color: orangered !important;
+    font-size: 14px !important
+}

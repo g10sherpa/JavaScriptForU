@@ -1,0 +1,11 @@
+body{
+    background-color: #542e71;
+}
+
+.bg-primary{
+    background: linear-gradient(45deg, black,purple);
+}
+
+.btn {
+    border-radius: 50px;
+}
