@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height:40px;
+    background-color: black;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: large;
+}
