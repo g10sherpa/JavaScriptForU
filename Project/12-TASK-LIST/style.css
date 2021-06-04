@@ -1,0 +1,36 @@
+.bg-primary{
+    background: linear-gradient(45deg, black,purple);
+}
+
+.navbar{
+    background: linear-gradient(45deg, rgb(60, 12, 75),rgb(145, 124, 67));
+}
+
+.btn {
+     background: linear-gradient(45deg, black,rgb(7, 0, 6));
+     margin-top: 10px;
+}
+
+.form-control{
+    border: 2px solid rgb(82, 31, 69);
+}
+
+.card{
+    border: 2px solid black;
+}
+
+.bg-success{
+     background: linear-gradient(45deg, rgb(199, 181, 204),rgb(162, 224, 18));
+}
+
+.close{
+    line-height: 12px;
+     font-size: 8pt;
+     font-family: tahoma;
+     margin-top: 4px;
+     margin-right: 2px;
+     margin-left: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+}
