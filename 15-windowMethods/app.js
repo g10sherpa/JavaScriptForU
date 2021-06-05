@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // WINDOW METHODS / OBJECTS / PROPERTIES
 
 // Alert
@@ -53,7 +54,5 @@ val = window.navigator.userAgent;
 val = window.navigator.platform;
 val = window.navigator.vendor;
 val = window.navigator.language;
-
-
 
 console.log(val);

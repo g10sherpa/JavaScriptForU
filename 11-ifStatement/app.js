@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // if(something){
 //   do something
 // } else {
@@ -50,7 +51,7 @@ const id = 100;
 
 // IF ELSE
 
-const color = 'yellow';
+const color = "yellow";
 
 // if(color === 'red'){
 //   console.log('Color is red');
@@ -62,35 +63,31 @@ const color = 'yellow';
 
 // LOGICAL OPERATORS
 
-const name = 'Steve';
+const name = "Steve";
 const age = 70;
 
 // AND &&
-if(age > 0 && age < 12){
+if (age > 0 && age < 12) {
   console.log(`${name} is a child`);
-} else if(age >= 13 && age <= 19){
+} else if (age >= 13 && age <= 19) {
   console.log(`${name} is a teenager`);
 } else {
   console.log(`${name} is an adult`);
 }
 
 // OR ||
-if(age < 16 || age > 65){
+if (age < 16 || age > 65) {
   console.log(`${name} can not run in race`);
 } else {
   console.log(`${name} is registered for the race`);
 }
 
 // TERNARY OPERATOR
-console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
+console.log(id === 100 ? "CORRECT" : "INCORRECT");
 
 // WITHOUT BRACES
-if(id === 100)
-  console.log('CORRECT');
-else
-  console.log('INCORRECT');
+if (id === 100) console.log("CORRECT");
+else console.log("INCORRECT");
 
-if(id === 100)
-  console.log('CORRECT');
-else
-  console.log('INCORRECT');
+if (id === 100) console.log("CORRECT");
+else console.log("INCORRECT");

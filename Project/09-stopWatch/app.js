@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let count = 0;
 let minutes = 0;
 let seconds = 0;

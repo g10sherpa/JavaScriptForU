@@ -1,9 +1,10 @@
+/*jshint esversion: 6 */
 // let numbers = [10,20,30,40,50,60];
 // console.log(`numbers are : ${ numbers}`);
 
 // console.log(numbers[0]);
 
-let colors = ['white', 'black', 'green', 'red', 'yellow', 'blue'];
+let colors = ["white", "black", "green", "red", "yellow", "blue"];
 // let result = ''
 // for(let i =0; i<=colors.length-1; i++){
 //     result += `${colors[i]} , `;
@@ -29,28 +30,28 @@ let colors = ['white', 'black', 'green', 'red', 'yellow', 'blue'];
 
 //array of objects
 let employees = [
-    {
-        name: 'Shyam bahadur',
-        age: 35,
-        address: {
-            city: 'biratnagar',
-            addrss: 'bhalu chowk'
-        }
+  {
+    name: "Shyam bahadur",
+    age: 35,
+    address: {
+      city: "biratnagar",
+      addrss: "bhalu chowk",
     },
-    {
-        name: 'hari bahadur',
-        age: 28,
-        address:{
-            city: 'pokhara',
-            address: 'prithvi chowk'
-        }
-    }
-]
+  },
+  {
+    name: "hari bahadur",
+    age: 28,
+    address: {
+      city: "pokhara",
+      address: "prithvi chowk",
+    },
+  },
+];
 
 // console.log(employees);
 
 //iterate employees
-result = '';
+result = "";
 // for(let employee of employees){
 //     result += `${employee.name}, `;
 // }

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // let marks = -80;
 
 // if(marks<45 && marks>0){
@@ -60,28 +61,27 @@
 
 // console.log(`today is ${today}`);
 
-
-let result = '';
-for(let i =0; i<=5; i++){
-    if(i <=4){
-        result += `${i} , `;
-    }else{
-        result += `${i} `;
-    } 
+let result = "";
+for (let i = 0; i <= 5; i++) {
+  if (i <= 4) {
+    result += `${i} , `;
+  } else {
+    result += `${i} `;
+  }
 }
 console.log(result);
 
 let number = 5;
-result = '';
-for(let i =1; i<=number; i++){
-    for(let j = 1; j<= i; j++){
-        result += '* ';
-    }
-    result += '\n';
+result = "";
+for (let i = 1; i <= number; i++) {
+  for (let j = 1; j <= i; j++) {
+    result += "* ";
+  }
+  result += "\n";
 }
 console.log(result);
 
-numbers = '';
+numbers = "";
 for (let i = 5; i >= 1; i--) {
   for (let j = 1; j <= i; j++) {
     numbers += `${j} `;
@@ -89,4 +89,3 @@ for (let i = 5; i >= 1; i--) {
   numbers += "\n";
 }
 console.log(numbers);
-

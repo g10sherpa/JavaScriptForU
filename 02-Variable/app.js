@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // var, let, const
 
 // var name = 'John Doe';

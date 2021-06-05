@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //nepal time
 let nepalWatch = () => {
   let options = { timeZone: "Asia/Kathmandu" };

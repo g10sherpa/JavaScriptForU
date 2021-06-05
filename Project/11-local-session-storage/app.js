@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*
     localStorage => string => JSON.stringify() , parse()
         setItem('key', 'value'); //create , update
