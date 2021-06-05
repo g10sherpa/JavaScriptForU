@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // let laptop = {
 //     name : 'MSI',
 //     color: 'black',
@@ -25,11 +26,9 @@
 // console.log(student);
 // console.log(student.address.city);
 
-let mobile = {}
+let mobile = {};
 
-mobile.brand = "apple",
-mobile.color = "red",
-mobile.price = 60000
+(mobile.brand = "apple"), (mobile.color = "red"), (mobile.price = 60000);
 
 console.log(mobile);
 

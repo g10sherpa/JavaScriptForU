@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //built in functions
 // shift() => remove first element from array
 let technologies = ["html", "css", "javascript", "react", "bootstrap"];

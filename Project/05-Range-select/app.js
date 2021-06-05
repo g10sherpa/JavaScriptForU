@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //format number such as 1,000,000
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
 let formatNumber = (number) => {

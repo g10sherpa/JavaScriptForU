@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let registrationForm = document.querySelector("#register-form");
 registrationForm.addEventListener("submit", (event) => {
   event.preventDefault(); //stops auto form submission

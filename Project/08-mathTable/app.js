@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let numberEl = document.querySelector("#req-number");
 numberEl.addEventListener("keyup", () => {
   let theNumber = Number(numberEl.value);

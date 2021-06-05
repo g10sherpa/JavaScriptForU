@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let taskFormEl = document.querySelector("#task-form");
 taskFormEl.addEventListener("submit", (event) => {
   let taskInputEl = document.querySelector("#input-item");

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // FOR LOOP
 
 // for(let i = 0; i < 10; i++){
@@ -35,7 +36,7 @@
 // while(i < 10);
 
 // LOOP THROUGH ARRAY
-const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
+const cars = ["Ford", "Chevy", "Honda", "Toyota"];
 
 // for(let i = 0; i < cars.length; i++){
 //   console.log(cars[i]);
@@ -61,14 +62,13 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
 
 // console.log(ids);
 
-
 // FOR IN LOOP
 const user = {
-  firstName: 'John', 
-  lastName: 'Doe',
-  age: 40
-}
+  firstName: "John",
+  lastName: "Doe",
+  age: 40,
+};
 
-for(let x in user){
+for (let x in user) {
   console.log(`${x} : ${user[x]}`);
 }

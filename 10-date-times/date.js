@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // date object
 
 let date = new Date();
@@ -12,10 +13,10 @@ let currentTime = new Date().toLocaleTimeString();
 console.log(currentTime);
 
 //other countries time
-let options = {timeZone : 'America/New_york'};
-let US_TIME = new Date().toLocaleTimeString('en-us', options)
+let options = { timeZone: "America/New_york" };
+let US_TIME = new Date().toLocaleTimeString("en-us", options);
 console.log(US_TIME);
 
-//month 
+//month
 let currentMonth = new Date().getMonth();
 console.log(currentMonth);

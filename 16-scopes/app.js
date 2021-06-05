@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*
     1) Block scope
     ex: statement block, if, for , switch, while
