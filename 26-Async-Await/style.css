@@ -1,0 +1,11 @@
+.navbar{
+    background: linear-gradient(45deg, rgb(172, 80, 80),purple);
+    justify-content: center;
+}
+
+table{
+ width: 80%;
+ margin: 50px auto;   
+ background-color: rgb(199, 143, 143);
+ text-align: center;
+}
